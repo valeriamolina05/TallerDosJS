@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+.boton {
+      position: absolute;
+      bottom: 1%;
+      right: 50%;
+    }
+    
+.boton input{
+      background-color: #000000;
+      border: none;
+      color: white;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all ease-in-out 0.5s;
+    }
+    
+.boton input:hover{
+      color: rgb(236, 118, 155);
+    }
+    
+    
+.pagina {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(to bottom,  rgb(227, 136, 165), rgb(248, 203, 132));
+      font-family: Arial, sans-serif, Tahoma;
+      
+      
+    }
+    
+    
+.contenedor {
+      background-color: white;
+      display: flex;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 800px;
+      height: 450px;
+      
+    }
+    
+.izquierda {
+      flex: 1;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+    
+.primero {
+      font-weight: bold;
+      font-size: 50px;
+      
+      
+    }
+    
+.redes {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-top: 20px;
+    }
+    
+   
+.fa-brands {
+    display: inline-block;
+    height: 3.5vw;
+    width: 3.5vw;
+    background-size: 100%;
+    background-position:center;
+   }
+  
+.parrafo {
+      margin: 10px 0;
+  
+    }
+    
+.campos {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    
+.campos input {
+      margin-bottom: 10px;
+      padding: 9px;
+      border: none;
+      background-color: rgb(245, 244, 244);
+    }
+    
+.forgot {
+      margin-bottom: 10px;
+      
+    }
+    
+.boton2 {
+      background-color: rgb(226, 46, 103);
+      color: white;
+      border: none;
+      border-radius: 25px;
+      padding: 12px 30px;
+      cursor: pointer;
+      width: 40%;
+    }
+    
+.derecha {
+      background: linear-gradient(to bottom, rgb(255, 169, 32), rgb(226, 46, 103));
+      color: white;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+      
+    }
+    
+.segundo {
+      font-weight: bold;
+      font-size: 35px;
+  
+    }
+    
+.derecha p {
+      margin-bottom: 50px;
+      font-size: 20px;
+    }
